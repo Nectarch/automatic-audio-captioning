@@ -1,0 +1,6 @@
+.venv
+.vscode
+__pycache__/
+.env
+outputs/*
+!outputs/sample_voice.wav

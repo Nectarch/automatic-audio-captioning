@@ -1,0 +1,43 @@
+{
+  "tts": {
+    "out_dir": "outputs",
+    "input_path": "inputs/Sample.txt",
+    "voice": "en-US-JennyNeural",
+    "rate": "+0%",
+    "volume": "+0%",
+    "normalize": true
+  },
+  "asr": {
+    "model_name": "small",
+    "vad_method": "silero",
+    "language": "en",
+    "device": "cpu"
+  },
+  "render": {
+    "out_dir": "outputs",
+    "font_path": "assets/fonts/MikadoBold.otf",
+
+    "audio_source": "latest",
+    "audio_dir": "outputs",
+    "audio_path": "outputs/sample_voice.wav",
+
+    "bg_color": "#101010",
+    "fps": 24,
+    "auto_padding": 80,
+
+    "debug_mode": false,
+    "fast_mode": false,
+    "fast_duration": 30,
+
+    "text_shadow": true,
+    "highlight_enabled": false,
+    "downscale_enabled": true,
+    "downscale_factor": 0.5,
+
+    "group_words": 7,
+    "font_size": 80,
+    "stroke_width": 12,
+    "max_width": 1000,
+    "line_spacing": 3
+  }
+}
