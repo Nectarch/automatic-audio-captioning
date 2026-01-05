@@ -15,6 +15,8 @@ python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 ```
+Recommended: use a virtual environment to avoid installing packages into your global Python environment.
+Reference: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
 ## Config
 Edit config.json to control:
